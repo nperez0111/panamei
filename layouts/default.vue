@@ -45,18 +45,11 @@
             <v-alert type="error" :value="selectedItems.length===0">
               Nothing Is Selected Press "Redo" or the "X" to go back.
             </v-alert>
-            <v-layout justify-center v-show="selectedItems.length>0" class="mt-2 mb-5">
-              <v-btn @click="copy">Copy to Clipboard</v-btn>
-            </v-layout>
             <v-layout wrap v-show="selectedItems.length>0">
-              <template v-for="item in selectedItems">
-                <v-flex xs9 :key="item.title">
-                  <h2>{{item.title}}</h2>
-                </v-flex>
-                <v-flex xs3 :key="item.image">
-                  <h3 class="text-xs-center"> X {{item.quantity}}</h3>
-                </v-flex>
-              </template>
+              <v-flex xs12>
+                <h1>Tap Inside the Region and press "Select All" to Copy the text to send</h1>
+              </v-flex>
+              <v-text-field label="Copy the text below" textarea :value="toCopy"></v-text-field>
             </v-layout>
           </v-card-text>
         </v-card>
