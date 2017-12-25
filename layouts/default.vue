@@ -49,7 +49,9 @@
               <v-flex xs12>
                 <h1>Tap Inside the Region and press "Select All" to Copy the text to send</h1>
               </v-flex>
-              <v-text-field label="Copy the text below" textarea :value="toCopy"></v-text-field>
+              <v-flex xs12>
+                <v-text-field label="Copy the text below" textarea :value="toCopy"></v-text-field>
+              </v-flex>
             </v-layout>
           </v-card-text>
         </v-card>
