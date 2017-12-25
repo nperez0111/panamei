@@ -12,7 +12,7 @@
       <v-layout row justify-space-between wrap class="mt-3">
         <v-flex v-for="(item,i) in items" :key="item.image" xs6 md3 d-flex class="my-1 px-1">
           <v-card ripple @click.native.stop="addQuantity(i)" tile>
-            <v-card-media :src="item.image" height="150" contain></v-card-media>
+            <v-card-media :src="item.image" height="170" contain></v-card-media>
             <v-card-title v-text="item.title" class="title"></v-card-title>
             <v-card-actions>
               <v-btn icon ripple @click.stop="subtractQuantity(i)">
