@@ -1,10 +1,14 @@
-# Panamei Seafood Selector
+# [Panamei Seafood Selector](https://nperez0111.github.io/panamei/)
 
 > Helps Panamei Employees make orders in a consistent format
 
 ## What it is
 
 Simple Web App that can be installed to the homescreen of a phone to allow the Panamei Employee to make a few taps to enter an order of the different seafood products which Panamei carries via a few amount of taps to change the amount of cases to send.
+
+## How it looks
+
+![Image of the Web App](static/screen.png)
 
 ## How it works
 
