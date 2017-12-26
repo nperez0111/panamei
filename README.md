@@ -1,6 +1,14 @@
-# panamei
+# Panamei Seafood Selector
 
-> Panamei Seafood Selector
+> Helps Panamei Employees make orders in a consistent format
+
+## What it is
+
+Simple Web App that can be installed to the homescreen of a phone to allow the Panamei Employee to make a few taps to enter an order of the different seafood products which Panamei carries via a few amount of taps to change the amount of cases to send.
+
+## How it works
+
+Is a simple Vue + Nuxt.js web app built with Vuetify.js that manipulates a list of titles and images to then output a list of selected items and their respective quantities.
 
 ## Build Setup
 
